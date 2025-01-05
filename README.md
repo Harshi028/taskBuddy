@@ -48,7 +48,9 @@ TaskBuddy is a **React-based task management application** that will:
 - **Frontend Framework**: React.js  
 - **Data Storage**: localStorage  
 - **Version Control**: Git and GitHub for version tracking  
-- **Deployment**: Deploy on GitHub Pages or Netlify  
+- **Deployment**: Deploy on GitHub Pages or Netlify
+  
+![image](https://github.com/user-attachments/assets/e88ea3f1-1277-43e4-add4-5e6e2a1e21eb)
 
 ---
 
