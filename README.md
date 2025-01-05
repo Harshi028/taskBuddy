@@ -50,7 +50,9 @@ TaskBuddy is a **React-based task management application** that will:
 - **Version Control**: Git and GitHub for version tracking  
 - **Deployment**: Deploy on GitHub Pages or Netlify
   
-![image](https://github.com/user-attachments/assets/e88ea3f1-1277-43e4-add4-5e6e2a1e21eb)
+UI
+![image](https://github.com/user-attachments/assets/ac79e26f-4644-4768-8d17-e3a2c2edd2ee)
+
 
 ---
 
