@@ -11,6 +11,10 @@
     display: flex;
     gap: 10px;
 }
+
+#inii{
+    background-color: aqua;
+}
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;

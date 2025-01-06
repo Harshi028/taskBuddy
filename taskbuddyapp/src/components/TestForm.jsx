@@ -6,13 +6,15 @@ export default function TaskForm(){
     const [category,setCategory]=useState('General');
     return(
         <form className="task-form">
-            <input type="text" 
-            placeholder="Enter Your task" 
-            required
-            value={task}
-            onChange={(e)=>setTask(e.target.value)} />
+            <div id="inp">
+                <input type="text" 
+                placeholder="Enter Your task" 
+                required
+                value={task}
+                onChange={(e)=>setTask(e.target.value)} />
+                <span><button id="inii">ADD Tasks</button></span>
+            </div>
 
-            <span><button>ADD Tasks</button></span>
             <div className="btns">
                 <select value={priority} onChange={(e)=>setPriority(e.target.value)}>
                     <option>Medium</option>
