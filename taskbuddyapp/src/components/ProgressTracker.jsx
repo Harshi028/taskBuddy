@@ -8,7 +8,7 @@ function ProgressTracker({ tasks }) {
   return (
     <div className="progress-tracker">
       <p>
-        {completedTasks} of {totalTasks} tasks completed
+        {completedTasks} of {totalTasks} tsasks completed
       </p>
       <div className="progress-bar">
         <div
