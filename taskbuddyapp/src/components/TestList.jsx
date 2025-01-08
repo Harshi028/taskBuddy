@@ -1,11 +1,10 @@
 import React from "react";
-
 function TaskList({ tasks, updateTask, deleteTask }) {
   const toggleComplete = (index) => {
     const updatedTask = { ...tasks[index], completed: !tasks[index].completed };
     updateTask(index, updatedTask);
   };
-  return(
+  return (
     <ul className="task-list">
       {tasks.map((task, index) => (
         <li key={index} className={task.completed ? "completed" : ""}>

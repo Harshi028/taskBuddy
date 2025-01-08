@@ -28,11 +28,10 @@ function App() {
   const clearTasks = () => {
     setTasks([]);
   };
-  
   return (
     <div className='App'>
       <header class="header">
-  <div className="header-container">
+  <div class="header-container">
     <h1 class="title">
       Task<span class="highlight">Buddy</span>
     </h1>
